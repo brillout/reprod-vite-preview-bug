@@ -26,7 +26,8 @@
   },
   "scripts": {
     "// Develop Docpress using demo/": "",
-    "dev": "docpress dev",
+    "demo:dev": "docpress dev",
+    "demo:preview": "docpress build && docpress preview",
     "// Build Docpress": "",
     "build": "rm -rf dist/ && framework-builder",
     "// Release": "",
